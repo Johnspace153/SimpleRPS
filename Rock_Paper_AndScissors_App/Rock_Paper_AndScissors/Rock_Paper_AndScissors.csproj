@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\_Librarys\RPS_Library\RPS_Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ConsoleHelperLibrary">
+      <HintPath>..\..\..\_Librarys\ConsoleHelperLibrary\ConsoleHelperLibrary\bin\Debug\net8.0\ConsoleHelperLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
